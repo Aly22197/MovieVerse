@@ -1,0 +1,57 @@
+﻿body {
+    margin: 0;
+    background-color: #bdb8b8;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container {
+    width: 800px;
+    background: rgba(248, 248, 240, 0.7);
+    background: rgba(17, 16, 16, 0.5);
+    background: rgba(255,255,255,0.7);
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-radius: 2%;
+}
+
+.heading {
+    background: rgb(240, 240, 246);
+    color: rgb(50, 48, 48);
+    padding: 15px;
+    margin: 0 25px 35px 25px;
+    border-radius: 3%;
+    font-family: sans-serif;
+}
+
+    .heading h1 {
+        padding: 0;
+        margin: 0;
+        color: #222222
+    }
+
+.submit {
+    border: 2px solid rgb(223, 223, 237);
+    color: rgb(32, 31, 31);
+    background: white;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+    .submit:hover {
+        background: rgb(56, 56, 57);
+        color: white;
+        border-color: transparent;
+    }
+
+.fa {
+    font-size: 40px;
+    margin-left: 2px;
+    margin-right: 3px;
+    padding: 2px;
+}
+
+h2 {
+    color: #191919
+}

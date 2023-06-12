@@ -1,0 +1,94 @@
+﻿body {
+margin: 0;
+background-color: #bdb8b8;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.container {
+width: 800px;
+background: rgba(248, 248, 240, 0.7);
+background: rgba(17, 16, 16, 0.5);
+background: rgba(255,255,255,0.7);
+padding-bottom: 50px;
+padding-top: 30px;
+border-radius: 2%;
+}
+
+.heading {
+background: rgb(240, 240, 246);
+color: rgb(50, 48, 48);
+padding: 15px;
+margin: 0 25px 35px 25px;
+border-radius: 3%;
+font-family: sans-serif;
+}
+
+.heading h1 {
+padding: 0;
+margin: 0;
+color: #222222
+}
+
+.affix {
+top: 0;
+z-index: 999 !important;
+width: 98%;
+}
+
+.top_header {
+font-family: sans-serif;
+background-size: cover;
+width: 100%;
+display: inline-block;
+height: auto;
+padding-bottom: 0;
+}
+
+.top_header h2 {
+float: left;
+padding: 5px;
+margin-left: 2%;
+font-weight: 900;
+}
+
+.navbar {
+padding-top: 0;
+margin: 0
+}
+
+ul.navbar-nav {
+margin-left: 30px;
+}
+
+ul.navbar-nav li {
+margin-left: 2px;
+}
+
+ul.navbar-nav li a {
+    color: white;
+    font-size: 16px;
+    border-radius: 5%;
+    font-weight: 550;
+}
+
+ul.navbar-nav li.active a {
+    color: black;
+    background: white;
+}
+
+ul.navbar-nav li:hover a {
+    color: black;
+    background: white;
+}
+
+.navbar-header ul li a img {
+position: relative;
+width: 50px;
+height: 50px;
+top: -14px;
+border-radius: 50%;
+transform: scale(1.2);
+margin-right: 5px;
+border: 1px solid #fff;
+}
